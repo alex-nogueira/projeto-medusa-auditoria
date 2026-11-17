@@ -1,0 +1,15 @@
+# Resultados brutos: podem conter credenciais
+relatorios/resultado-*.txt
+
+# Listas de usuários e senhas
+wordlists/*.txt
+
+# Cookies e arquivos temporários
+*.cookie
+*.session
+*.log
+*.tmp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

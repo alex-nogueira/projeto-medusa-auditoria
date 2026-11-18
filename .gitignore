@@ -1,15 +1,58 @@
 # Resultados brutos: podem conter credenciais
-relatorios/resultado-*.txt
+#relatorios/resultado-*.txt
 
 # Listas de usuários e senhas
-wordlists/*.txt
+#wordlists/*.txt
 
 # Cookies e arquivos temporários
-*.cookie
-*.session
-*.log
-*.tmp
+#*.cookie
+#*.session
+#*.log
+#*.tmp
 
 # Arquivos do sistema
+#.DS_Store
+#Thumbs.db
+
+#Nova config abaixo
+
+# ============================================
+# Credenciais e arquivos sensíveis
+# ============================================
+*.txt
+*.log
+*.pcap
+*.pcapng
+credenciais*
+senhas*
+passwords*
+wordlists/
+raw-output/
+resultados-brutos/
+sessoes/
+cookies/
+
+# ============================================
+# Ambiente virtual / dependências
+# ============================================
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# ============================================
+# Sistema operacional
+# ============================================
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ============================================
+# Editores / IDEs
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo

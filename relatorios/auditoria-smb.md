@@ -14,7 +14,9 @@
 ## Teste de autenticação
 - Ferramenta: Medusa 2.3
 - Módulo: smbnt
-- Teste de reutilização de credencial FTP: pendente
+- Teste de reutilização de credencial identificada no FTP: realizado.
+- Resultado: autenticação SMB bem-sucedida.
+- Acesso ao compartilhamento administrativo ADMIN$: permitido.
 
 ## Recomendações
 - Desabilitar SMBv1.
